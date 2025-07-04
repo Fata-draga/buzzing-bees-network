@@ -1,0 +1,26 @@
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff8dc;
+    color: #333;
+    text-align: left;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333300;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.about-section blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 4px solid #ffcc00; }

@@ -1,0 +1,19 @@
+.health-safety-section {
+    padding: 40px 20px;
+    background-color: #fff9e6;
+    text-align: center;
+}
+
+.health-safety-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.health-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ffcc00;
+    border-radius: 12px;
+    margin-top: 20px;
+}

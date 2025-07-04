@@ -1,0 +1,27 @@
+.policies-section {
+    padding: 40px 20px;
+    background-color: #f5f5ff;
+    text-align: center;
+}
+
+.policies-section h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.pdf-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #d1c4e9;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.pdf-download:hover {
+    background-color: #b39ddb;
+}

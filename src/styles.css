@@ -1,0 +1,93 @@
+button, .nav-links a {
+  transition: 0.3s ease;
+}
+
+button:hover, .nav-links a:hover {
+  transform: scale(1.05);
+  color: #ffcc00;
+}
+
+.nav-links .active {
+  border-bottom: 2px solid #ffcc00;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ReactModal__Content {
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background: #333;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 0;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
