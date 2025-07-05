@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/buzzing-bees-network/static/css/main.60a328cc.css",
+    "main.js": "/buzzing-bees-network/static/js/main.c2b0b532.js",
+    "static/media/hero-kids.jpg": "/buzzing-bees-network/static/media/hero-kids.d0d0bb3bc030ef60e58c.jpg",
+    "static/media/allergy-management.jpg": "/buzzing-bees-network/static/media/allergy-management.5eafca2b1a62a359fda1.jpg",
+    "static/media/Brighter-Futures-Logo.png": "/buzzing-bees-network/static/media/Brighter-Futures-Logo.e37fcb62b86391ddd056.png",
+    "static/media/bee-logo.png": "/buzzing-bees-network/static/media/bee-logo.f490601cc25c7192b9cf.png",
+    "static/media/childcare-choices-logo.png": "/buzzing-bees-network/static/media/childcare-choices-logo.3430d964654fb8bc94d1.png",
+    "index.html": "/buzzing-bees-network/index.html",
+    "main.60a328cc.css.map": "/buzzing-bees-network/static/css/main.60a328cc.css.map",
+    "main.c2b0b532.js.map": "/buzzing-bees-network/static/js/main.c2b0b532.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60a328cc.css",
+    "static/js/main.c2b0b532.js"
+  ]
+}
