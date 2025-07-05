@@ -1,5 +1,6 @@
 import React from "react";
-import "./HealthSafety.css"; // pentru stilizare, dacă dorești
+import "./HealthSafety.css";
+import allergyImage from "../assets/allergy-management.jpg";
 
 function HealthSafety() {
   return (
@@ -11,7 +12,7 @@ function HealthSafety() {
         managing allergies and emergency protocols.
       </p>
       <img
-        src="/allergy-management.jpg"
+        src={allergyImage}
         alt="Allergy Management Procedure"
         className="health-img"
       />

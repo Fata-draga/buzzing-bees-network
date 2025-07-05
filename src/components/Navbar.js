@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import beeLogo from "../assets/bee-logo.png";
+import "./Navbar.css";
 
 function Navbar({ onBookVisit }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <img src={beeLogo} alt="Bee Logo" className="logo" />
-      <h1>Childminder</h1>
+      <div className="navbar-left">
+        <img src={beeLogo} alt="Bee Logo" className="logo" />
+        <h1>Buzzing Bees</h1>
+      </div>
 
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <Link to="about" smooth duration={500} onClick={() => setIsOpen(false)}>

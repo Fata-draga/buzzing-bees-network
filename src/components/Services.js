@@ -1,20 +1,51 @@
-import React from 'react';
+import React from "react";
+import "../components/Services.css"; // Adjusted path for clarity
+import childcareChoicesLogo from "../assets/childcare-choices-logo.png";
+import brighterFuturesLogo from "../assets/Brighter-Futures-Logo.png";
 
-function Services() {
+const Services = () => {
   return (
-    <div>
-      <h2>Our Services</h2>
-      <ul>
-        <li>Full-time & part-time care</li>
-        <li>Emergency & overnight childcare</li>
-        <li>School drop-offs & pickups</li>
-        <li>Individual learning plans based on EYFS</li>
-        <li>Flexible hours to suit your needs</li>
-        <li><a href="https://www.childcarechoices.gov.uk/" target="_blank" rel="noreferrer">Free childcare options – ChildcareChoices.gov.uk</a></li>
-        <li><a href="https://brighterfuturesforchildren.org/for-parents-carers/under-5/2-year-olds/" target="_blank" rel="noreferrer">2-Year-Old Funding – BrighterFuturesForChildren.org</a></li>
-      </ul>
-    </div>
+    <section className="services" id="services">
+      <div className="services-container">
+        <h2>Our Services</h2>
+        <ul className="services-list">
+          <li>Full-time & part-time care</li>
+          <li>Emergency & overnight childcare</li>
+          <li>School drop-offs & pickups</li>
+          <li>Individual learning plans based on EYFS</li>
+          <li>Flexible hours to suit your needs</li>
+        </ul>
+
+        <div className="services-links">
+          <a
+            href="https://www.childcarechoices.gov.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Visit Childcare Choices"
+          >
+            <img
+              src={childcareChoicesLogo}
+              alt="Childcare Choices UK Government Logo"
+              className="external-logo"
+            />
+          </a>
+
+          <a
+            href="https://brighterfuturesforchildren.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Visit Brighter Futures for Children"
+          >
+            <img
+              src={brighterFuturesLogo}
+              alt="Brighter Futures for Children Logo"
+              className="external-logo"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
   );
-}
+};
 
 export default Services;

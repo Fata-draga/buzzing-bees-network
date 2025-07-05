@@ -1,19 +1,33 @@
 .health-safety-section {
-    padding: 40px 20px;
-    background-color: #fff9e6;
+    background-color: #fffbee;
+    padding: 60px 20px;
     text-align: center;
+    border-top: 2px dashed #ffd700;
+    border-bottom: 2px dashed #ffd700;
 }
 
 .health-safety-section h2 {
-    font-size: 28px;
+    font-size: 2rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.health-safety-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    color: #444;
 }
 
 .health-img {
-    max-width: 100%;
+    width: 40%;
     height: auto;
-    border: 2px solid #ffcc00;
+    display: block;
+    margin: 0 auto;
     border-radius: 12px;
-    margin-top: 20px;
+    object-fit: contain;
+    box-shadow: none;
+    background: none;
+    
 }

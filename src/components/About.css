@@ -1,26 +1,43 @@
-.about-section {
+.about {
+    background-color: #fffbee;
     padding: 60px 20px;
-    background-color: #fff8dc;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
     color: #333;
-    text-align: left;
-    max-width: 900px;
-    margin: auto;
 }
 
-.about-section h2 {
+.section-title {
     font-size: 2rem;
+    color: #222;
     margin-bottom: 20px;
-    color: #333300;
 }
 
-.about-section p {
+.about-intro {
     font-size: 1.1rem;
-    line-height: 1.6;
+    margin-bottom: 30px;
 }
 
-.about-section blockquote {
+.section-subtitle {
+    font-size: 1.5rem;
+    margin: 25px 0 10px;
+    color: #444;
+}
+
+.mission-quote {
     font-style: italic;
-    color: #555;
+    background-color: #fff4d1;
+    padding: 15px 20px;
     margin: 20px 0;
-    padding-left: 20px;
-    border-left: 4px solid #ffcc00; }
+    border-left: 4px solid #ffcc00;
+    color: #444;
+}
+
+.mission-quote span {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+}
