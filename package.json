@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d build"
+    "deploy": "cd build && git init && git add . && git commit -m \"Deploy to GitHub Pages\" && git push -f https://github.com/Fata-draga/buzzing-bees-network.git master:gh-pages"
   },
   "eslintConfig": {
     "extends": [
