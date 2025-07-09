@@ -5,7 +5,7 @@ import brighterFuturesLogo from "../assets/Brighter-Futures-Logo.png";
 
 const Services = () => {
   return (
-    <section className="services" id="services">
+    <section className="services-links" id="services">
       <div className="services-container">
         <h2>Our Services</h2>
         <ul className="services-list">
